@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./index.css";
+import Navbar from "./component/Navbar";
+import HeroSection from "./component/HeroSection";
+import MostPicked from "./component/MostPicked";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <body className="container mx-auto px-16 dark:bg-gray-900">
+      <section className="border-b">
+        <div className="">
+          <Navbar />
+        </div>
+      </section>
+
+      <section className="mt-16">
+        <div className="mx-auto">
+          <HeroSection />
+        </div>
+      </section>
+
+      <section class="mt-16">
+        <MostPicked />
+      </section>
+    </body>
   );
 }
 
