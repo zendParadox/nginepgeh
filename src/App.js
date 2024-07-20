@@ -3,6 +3,7 @@ import "./index.css";
 import Navbar from "./component/Navbar";
 import HeroSection from "./component/HeroSection";
 import MostPicked from "./component/MostPicked";
+import Category1 from "./component/Category1";
 
 function App() {
   return (
@@ -21,6 +22,10 @@ function App() {
 
       <section class="mt-16">
         <MostPicked />
+      </section>
+
+      <section class="mt-16">
+        <Category1 />
       </section>
     </body>
   );

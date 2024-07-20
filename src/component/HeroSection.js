@@ -1,7 +1,7 @@
 import React from "react";
-import Icon1 from "../assets/img/icon-1.svg";
-import Icon2 from "../assets/img/icon-2.svg";
-import Icon3 from "../assets/img/icon-3.svg";
+import Icon1 from "../assets/icon/icon-1.svg";
+import Icon2 from "../assets/icon/icon-2.svg";
+import Icon3 from "../assets/icon/icon-3.svg";
 import HeroImage from "../assets/img/image-hero-section.png";
 
 const HeroSection = () => {
