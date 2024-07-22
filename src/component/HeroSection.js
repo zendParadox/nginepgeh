@@ -8,10 +8,10 @@ const HeroSection = () => {
   return (
     <div className="grid grid-cols-2 items-center">
       <div className="hero-section-left-1">
-        <h1 className="text-4xl font-bold text-[#152C5B] tracking-wide">
+        <h1 className="text-4xl font-bold text-blue-900 tracking-wide dark:text-blue-400">
           Forget the busy work, start your next vacation
         </h1>
-        <p className="mt-5 text-slate-500">
+        <p className="mt-5 text-slate-500 dark:text-slate-200">
           We provide what you need to enjoy your holiday with family. Time to
           make another memorable moments. Your money can return, but your time
           is not. What are you waiting?
