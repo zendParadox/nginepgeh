@@ -4,6 +4,7 @@ import Navbar from "./component/Navbar";
 import HeroSection from "./component/HeroSection";
 import MostPicked from "./component/MostPicked";
 import Category1 from "./component/Category1";
+import Category2 from "./component/Category2";
 
 function App() {
   return (
@@ -26,6 +27,10 @@ function App() {
 
       <section class="mt-16">
         <Category1 />
+      </section>
+
+      <section className="mt-16">
+        <Category2 />
       </section>
     </body>
   );
